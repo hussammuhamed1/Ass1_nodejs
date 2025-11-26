@@ -1,0 +1,37 @@
+1.forEach work in array only and didn't return or break must use callback function
+for...of can use it in any variable insteaf of array only 
+
+
+
+
+
+
+2.hoisting :
+console.log(x)
+var x =4;
+
+it happened ==> 
+var x ;
+console.log(x) //undifned
+var x =4;
+TDZ:
+console.log(x); // ReferenceError
+let x = 10;
+
+
+
+3. == compare value but === compare value and type
+
+
+4. it work The try block contains code that might throw an error the catch block handles the error if one occurs 
+,because error can happen later not immediately
+
+
+
+5.
+conversion : When manually convert a value from one type to another.
+let num = 42;
+let str = String(num);
+
+coercion: When JavaScript automatically converts a value to another type during evaluation.
+console.log("5" + 2)
