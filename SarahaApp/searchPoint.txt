@@ -1,0 +1,22 @@
+i found a package called nodemailer can generate an otp in to gmail first create transport and a function for send email 
+then get an appPassword to this and when i signed up service i generate an otp and give it expiry date 
+
+
+ const otp = otpGenerator.generate(6, {
+      upperCaseAlphabets: false,
+      specialChars: false
+    });
+        const user = await userModel.create({
+      userName,
+      email,
+      password,
+      otp,
+      otpExpire: Date.now() + 10 * 60 * 1000 // 10 min
+    });
+
+
+     await sendEmail(
+      email,
+      "Verify Your Account",
+      `<h2>Your OTP is: ${otp}</h2>`
+    );
