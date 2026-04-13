@@ -1,0 +1,34 @@
+ 1. Inheritance
+Admin → User
+Admin extends User, meaning it inherits all properties and methods of User.
+
+Relationship:
+Inheritance (is-a relationship)
+Admin is a User
+
+ 2. Composition
+Notebook → Note
+A Notebook contains multiple Note objects (notes: Note[]).
+Notes are strongly owned by the notebook (they don’t exist independently in this design context).
+
+Relationship:
+Composition (strong has-a relationship)
+Notebook is composed of Notes
+
+ 3. Aggregation
+User → Notebook
+A User has multiple Notebook objects (notebooks: Notebook[]).
+Notebooks can exist independently of the user (they are not tightly bound like composition).
+
+Relationship:
+Aggregation (weak has-a relationship)
+User has Notebooks
+
+ 4. Association
+Note → User
+Note has a userId that refers to a User.
+This is a simple link, not ownership.
+
+Relationship:
+Association (uses/knows relationship)
+Note is associated with User

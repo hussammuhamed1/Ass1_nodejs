@@ -1,0 +1,34 @@
+[
+  {
+    "name": "user1",
+    "age": 22,
+    "email": "user@gmail.com",
+    "id": 1
+  },
+  {
+    "name": "hussam",
+    "age": 22,
+    "email": "hussam@gmail.com",
+    "id": 2
+  },
+  {
+    "name": "anas",
+    "age": 22,
+    "email": "anas@gmail.com",
+    "id": 3
+  },
+  {
+    "name": "omar",
+    "age": 19,
+    "email": "omar@gmail.com",
+    "id": 4,
+    "createdTime": "2025-12-20T14:37:55.289Z"
+  },
+  {
+    "name": "user2",
+    "age": 22,
+    "email": "user2@gmail.com",
+    "id": 5,
+    "createdTime": "2025-12-20T15:25:25.559Z"
+  }
+]
