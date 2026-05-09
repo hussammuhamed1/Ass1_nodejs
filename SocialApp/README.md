@@ -110,11 +110,6 @@ src/
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/HamzaOmarSaad/social-media-application.git
-   cd social-media-application
-   ```
 
 2. **Install dependencies**
    ```bash
@@ -315,7 +310,7 @@ Type definitions for database operations are located in `src/utils/types/db.type
 - **Name**: social-media-application
 - **Version**: 1.0.0
 - **License**: ISC
-- **GitHub**: https://github.com/HamzaOmarSaad/social-media-application
+
 
 ### Available Scripts
 
