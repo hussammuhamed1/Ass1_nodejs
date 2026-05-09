@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.REDIS_DB_NAME = exports.REDIS_DB_URI = exports.REFRESH_EXPIRES_IN = exports.ACCESS_EXPIRES_IN = exports.JWT_SECRET = exports.ENCRYPTION_KEY = exports.DB_URI = exports.PORT = void 0;
+const node_process_1 = require("node:process");
+exports.PORT = node_process_1.env["PORT"];
+exports.DB_URI = node_process_1.env["DB_URI"];
+exports.ENCRYPTION_KEY = node_process_1.env["ENCRYPTION_KEY"];
+exports.JWT_SECRET = node_process_1.env["JWT_SECRET"];
+exports.ACCESS_EXPIRES_IN = node_process_1.env["ACCESS_EXPIRES_IN"];
+exports.REFRESH_EXPIRES_IN = node_process_1.env["REFRESH_EXPIRES_IN"];
+exports.REDIS_DB_URI = node_process_1.env["REDIS_DB_URI"];
+exports.REDIS_DB_NAME = node_process_1.env["REDIS_DB_NAME"];

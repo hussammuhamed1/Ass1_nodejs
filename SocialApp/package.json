@@ -1,0 +1,44 @@
+{
+  "name": "social-media-application",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HamzaOmarSaad/social-media-application#readme",
+  "bugs": {
+    "url": "https://github.com/HamzaOmarSaad/social-media-application/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamzaOmarSaad/social-media-application.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node --env-file=config/.env.dev --watch ./dist/index.js",
+    "start:build": "tsc -w"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "crypto-js": "^4.2.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.5.0",
+    "nodemailer": "^8.0.7",
+    "package": "^1.0.1",
+    "packages": "^0.0.8",
+    "redis": "^5.12.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/cryptojs": "^3.1.33",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^25.6.0",
+    "@types/nodemailer": "^8.0.0"
+  }
+}
