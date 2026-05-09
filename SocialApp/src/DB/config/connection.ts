@@ -5,9 +5,9 @@ import { createClient } from "redis";
 export const connectDB = async () => {
   try {
     await mongoose.connect(DB_URI);
-    console.log("🚀 ~ DB connected successfully");
+    console.log("DB connected successfully");
   } catch (error) {
-    console.log("🚀 ~ connectDB ~ error:", error);
+    console.log(" connectDB ~ error:", error);
   }
 };
 
@@ -19,8 +19,8 @@ const redisClient = createClient({
 export const connectRedisDB = async () => {
   try {
     await redisClient.connect();
-    console.log("🚀 ~ redis connected successfully");
+    console.log("Redis connected successfully");
   } catch (error) {
-    console.log("🚀 ~ redis connectDB ~ error:", error);
+    console.log("Redis connectDB ~ error:", error);
   }
 };
